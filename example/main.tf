@@ -53,7 +53,8 @@ provider "aws" {
 
 # Setting everything up
 module "s3-spa-website" {
-  source = "./.."
+  source = "github.com/maxott/s3-spa-website"
+  # source = "./.." # for testing
 
   upload_directory = var.upload_directory
   sub_domain = var.sub_domain
