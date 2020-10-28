@@ -35,6 +35,7 @@ variable "mime_types" {
     png   = "image/png"
     PNG   = "image/png"
     jpeg  = "image/jpeg"
+    jpg  = "image/jpeg"
     ico   = "image/x-icon"
     webp  = "image/webp"
     svg   = "image/svg+xml"
